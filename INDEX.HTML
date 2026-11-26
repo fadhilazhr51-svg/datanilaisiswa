@@ -1,0 +1,39 @@
+
+<html lang="id">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Nilai Siswa</title>
+</head>
+<body>
+
+    <h2>Form Data Nilai Siswa</h2>
+
+    <label for="nama">Nama Siswa:</label><br>
+    <input type="text" id="nama"><br><br>
+
+    <label for="kelas">Kelas:</label><br>
+    <input type="text" id="kelas"><br><br>
+
+    <label for="mapel">Mata Pelajaran:</label><br>
+    <select id="mapel">
+        <option value="">Pilih Mata Pelajaran</option>
+        <option value="Pemrograman">Pemrograman</option>
+        <option value="Basis Data">Basis Data</option>
+        <option value="Matematika">Matematika</option>
+        <option value="Bahasa Indonesia">Bahasa Indonesia</option>
+        <option value="Bahasa Inggris">Bahasa Inggris</option>
+    </select><br><br>
+
+    <label for="nilai">Nilai:</label><br>
+    <input type="number" id="nilai" min="0" max="100"><br><br>
+
+    <button type="button" id="btnSimpan">Simpan</button>
+
+    <hr>
+
+    <h3>Hasil Input Nilai Siswa:</h3>
+    <ul id="hasil"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
